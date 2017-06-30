@@ -32,6 +32,7 @@ Bugfixes:
  * Code Generator: Fix negative stack size checks.
  * Inline Assembly: Enforce function arguments when parsing functional instructions.
  * Fixed segfault with constant function parameters
+ * Optimizer: Disallow optimizations involving mload because it changes msize.
 
 ### 0.4.11 (2017-05-03)
 
