@@ -18,6 +18,7 @@ Features:
  * Type Checker: Enforce strict UTF-8 validation.
 
 Bugfixes:
+ * Assembly: mark ``MLOAD`` to have side effects in the optimiser.
  * Code generator: Use ``REVERT`` instead of ``INVALID`` for generated input validation routines.
  * Type Checker: Fix address literals not being treated as compile-time constants.
  * Type Checker: Disallow invoking the same modifier multiple times.
